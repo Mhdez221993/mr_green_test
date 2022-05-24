@@ -1,0 +1,19 @@
+{
+  "name": "mr_green_test",
+  "version": "1.0.0",
+  "description": "The focus of this test should be mobile first development and optimized for speed, to the best of your ability.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mhdez221993/mr_green_test.git"
+  },
+  "author": "Moises Hernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mhdez221993/mr_green_test/issues"
+  },
+  "homepage": "https://github.com/Mhdez221993/mr_green_test#readme"
+}

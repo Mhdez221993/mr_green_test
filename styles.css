@@ -1,0 +1,92 @@
+/* --------------- General -------------- */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+img {
+  width: 100%;
+}
+
+.app {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr 5px 1fr;
+}
+
+/* ----------------- Main content ------------ */
+
+.content-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.lef-content {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.right-content {
+  display: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.paragraph {
+  height: 100%;
+  width: 50%;
+}
+
+.line {
+  background-color: green;
+}
+
+/* ------------------- Footer ---------------- */
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  row-gap: 1px;
+}
+
+.call-to-action-1 {
+  background-color: red;
+}
+
+.call-to-action-2 {
+  background-color: red;
+}
+
+.call-to-action-3 {
+  background-color: red;
+}
+
+@media screen and (min-width: 1025px) {
+  .right-content {
+    display: block;
+  }
+
+  .content-wrapper {
+    grid-template-columns: 2fr 1.1fr;
+  }
+
+  .app {
+    grid-template-rows: 7fr 8px 1fr;
+  }
+
+  .footer {
+    grid-template-columns: 5fr 4fr 5fr;
+    grid-template-rows: 1fr;
+    gap: 0 1px;
+  }
+}
