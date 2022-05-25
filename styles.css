@@ -101,6 +101,21 @@ span {
 .login {
   margin-bottom: 20px;
 }
+
+.btn-register {
+  width: 200px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+}
+
+.button-icon {
+  width: 20px;
+}
+
 /* ------------------- Footer ---------------- */
 
 .footer {
