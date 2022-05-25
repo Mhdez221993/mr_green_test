@@ -86,11 +86,6 @@ span {
   z-index: 2;
 }
 
-.line {
-  z-index: 2;
-  background-color: green;
-}
-
 .header {
   padding-bottom: 15px;
 }
@@ -115,6 +110,7 @@ span {
   row-gap: 1px;
   margin-top: -100px;
   z-index: 3;
+  border-top: 5px solid green;
 }
 
 .steps {
@@ -175,5 +171,14 @@ span {
     grid-template-rows: 1fr;
     margin-top: -60px;
     gap: 0 1px;
+    border-top: 7px solid green;
+  }
+
+  .paragraph {
+    padding-left: 100px;
+  }
+
+  .logo {
+    margin-right: 150px;
   }
 }
