@@ -13,6 +13,17 @@ img {
   width: 100%;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  padding: 0;
+  margin: 0;
+}
 /* body {
   box-sizing: border-box;
   padding: 0;
@@ -75,6 +86,21 @@ img {
   background-color: green;
 }
 
+.header {
+  padding-bottom: 15px;
+}
+
+.subheader {
+  padding-bottom: 15px;
+}
+
+.header_paragraph {
+  padding-bottom: 10px;
+}
+
+.login {
+  margin-bottom: 20px;
+}
 /* ------------------- Footer ---------------- */
 
 .footer {
@@ -110,8 +136,8 @@ img {
     display: block;
   }
 
-  .left-content {
-    padding-right: 0;
+  .lef-content {
+    margin-right: -285px;
   }
 
   .content-wrapper {
