@@ -3,7 +3,9 @@
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -37,7 +39,6 @@ img {
 }
 
 .lef-content {
-  position: relative;
   display: grid;
   grid-template-columns: 2fr 1fr;
   background-size: cover;
@@ -50,22 +51,23 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  z-index: 1;
 }
 
 .paragraph {
   max-width: 600px;
   padding: 20px 0 0 20px;
-  margin: 0 auto;
-  z-index: 2;
+  margin-right: -50px;
+  z-index: 3;
 }
 
 .mrg-portrait {
-  position: absolute;
   width: 215px;
   height: 670px;
   right: -10px;
   background-size: cover;
-  z-index: 1;
+  background-position: top left;
+  z-index: 2;
 }
 
 .line {
@@ -80,7 +82,8 @@ img {
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   row-gap: 1px;
-  z-index: 2;
+  margin-top: -140px;
+  z-index: 3;
 }
 
 .steps {
@@ -107,16 +110,16 @@ img {
     display: block;
   }
 
+  .left-content {
+    padding-right: 0;
+  }
+
   .content-wrapper {
     grid-template-columns: 2fr 1.1fr;
   }
 
   .mrg-portrait {
-    width: 280px;
-    height: 850px;
-    right: -185px;
     background-size: cover;
-    z-index: 1;
   }
 
   .app {
@@ -126,6 +129,7 @@ img {
   .footer {
     grid-template-columns: 5fr 4fr 5fr;
     grid-template-rows: 1fr;
+    margin-top: -60px;
     gap: 0 1px;
   }
 }
