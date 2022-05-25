@@ -46,7 +46,10 @@ span {
 }
 
 .logo {
-  height: 50px;
+  width: 70px;
+  align-self: flex-end;
+  margin-right: 50px;
+  margin-bottom: 20px;
 }
 
 .lef-content {
@@ -66,6 +69,8 @@ span {
 }
 
 .paragraph {
+  display: flex;
+  flex-direction: column;
   max-width: 600px;
   padding: 20px 0 0 20px;
   margin-right: -50px;
@@ -108,15 +113,28 @@ span {
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   row-gap: 1px;
-  margin-top: -140px;
+  margin-top: -100px;
   z-index: 3;
 }
 
 .steps {
-  height: 80px;
   display: grid;
   grid-template-columns: 1fr 5fr;
   grid-template-rows: 1fr;
+  padding: 15px 15px;
+}
+
+.img-steps {
+  width: 60px;
+  margin-right: 15px;
+}
+
+.content-steps {
+  padding-top: 12px;
+}
+
+.step-title {
+  padding-bottom: 5px;
 }
 
 .step-1 {
