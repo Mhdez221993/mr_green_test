@@ -20,6 +20,7 @@ h4,
 h5,
 h6,
 p,
+svg,
 span {
   padding: 0;
   margin: 0;
@@ -41,18 +42,19 @@ span {
 .content-wrapper {
   flex-grow: 1;
   display: flex;
+  position: relative;
 }
 
 .logo {
   width: 70px;
-  align-self: flex-end;
-  margin-right: 50px;
+  /* align-self: center; */
   margin-bottom: 20px;
 }
 
 .left-content {
+  position: relative;
   display: flex;
-  flex-grow: 1;
+  width: 100%;
   flex-direction: column;
   background-size: cover;
   background-repeat: no-repeat;
@@ -61,7 +63,7 @@ span {
 
 .right-content {
   display: none;
-  flex-grow: 1;
+  width: 30%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -70,8 +72,9 @@ span {
 .paragraph {
   display: flex;
   flex-direction: column;
-  width: 315px;
+  width: 300px;
   padding: 20px 0 20px 20px;
+  z-index: 2;
 }
 
 .header {
@@ -109,15 +112,16 @@ span {
 .footer {
   display: flex;
   flex-direction: column;
+  z-index: 2;
 }
 
 .steps {
   display: flex;
-  padding: 10px 15px;
+  padding: 10px;
 }
 
 .img-steps {
-  width: 60px;
+  width: 50px;
   margin-right: 15px;
 }
 
@@ -141,12 +145,37 @@ span {
   background-color: red;
 }
 
+/* Mr portrait */
+
+.mrg-portrait {
+  position: absolute;
+  width: 250px;
+  height: 85vh;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+@media screen and (min-width: 452px) {
+  .logo {
+    margin-left: 120px;
+  }
+}
+
+@media screen and (min-width: 620px) {
+  .paragraph {
+    width: 450px;
+    margin: 0 auto;
+  }
+}
+
 @media screen and (min-width: 1025px) {
   .app {
     grid-template-rows: 5fr 1fr;
   }
 
   .left-content {
+    width: 70%;
     padding-top: 80px;
   }
 
@@ -188,5 +217,11 @@ span {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+  }
+
+  .mrg-portrait {
+    width: 300px;
+    height: 100vh;
+    right: -190px;
   }
 }
