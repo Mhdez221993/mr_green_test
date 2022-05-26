@@ -241,4 +241,8 @@ iframe[seamless] {
   #footerMobile {
     display: none;
   }
+
+  #contentMobile {
+    display: none;
+  }
 }
