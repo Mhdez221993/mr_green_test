@@ -52,9 +52,9 @@ span {
   margin-bottom: 20px;
 }
 
-.lef-content {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
+.left-content {
+  display: flex;
+  flex-direction: column;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -71,19 +71,17 @@ span {
 .paragraph {
   display: flex;
   flex-direction: column;
-  max-width: 600px;
-  padding: 20px 0 0 20px;
-  margin-right: -50px;
-  z-index: 3;
+  width: 315px;
+  padding: 20px 0 20px 20px;
 }
 
 .mrg-portrait {
-  width: 215px;
+  /* width: 215px;
   height: 670px;
   right: -10px;
   background-size: cover;
   background-position: top left;
-  z-index: 2;
+  z-index: 2; */
 }
 
 .header {
@@ -123,7 +121,6 @@ span {
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   row-gap: 1px;
-  margin-top: -100px;
   z-index: 3;
   border-top: 5px solid green;
 }
@@ -161,12 +158,12 @@ span {
 }
 
 @media screen and (min-width: 1025px) {
-  .right-content {
-    display: block;
+  .left-content {
+    padding-top: 80px;
   }
 
-  .lef-content {
-    margin-right: -285px;
+  .right-content {
+    display: block;
   }
 
   .content-wrapper {
@@ -184,16 +181,17 @@ span {
   .footer {
     grid-template-columns: 5fr 4fr 5fr;
     grid-template-rows: 1fr;
-    margin-top: -60px;
     gap: 0 1px;
     border-top: 7px solid green;
   }
 
   .paragraph {
-    padding-left: 100px;
+    width: 600px;
+    margin: 0 auto;
   }
 
   .logo {
+    width: 130px;
     margin-right: 150px;
   }
 }
