@@ -74,15 +74,6 @@ span {
   padding: 20px 0 20px 20px;
 }
 
-.mrg-portrait {
-  /* width: 215px;
-  height: 670px;
-  right: -10px;
-  background-size: cover;
-  background-position: top left;
-  z-index: 2; */
-}
-
 .header {
   padding-bottom: 15px;
 }
@@ -163,14 +154,6 @@ span {
     display: block;
   }
 
-  .content-wrapper {
-    /* grid-template-columns: 2fr 1.1fr; */
-  }
-
-  .mrg-portrait {
-    background-size: cover;
-  }
-
   .footer {
     flex-direction: row;
     border-top: 7px solid green;
@@ -204,6 +187,6 @@ span {
     flex-grow: 2;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: flex-end;
   }
 }
