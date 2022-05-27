@@ -15,7 +15,7 @@ document.write(`
       your first game.
     </h2>
 
-    <button class="btn-register openRegister content-register">
+    <button class="btn-register openRegister content-register pointer">
       <span class="join-now">Join Now</span>
       <img
         class="button-icon"
@@ -26,7 +26,7 @@ document.write(`
 
     <p class="header_paragraph content-las-paragraph">
       Only new players | 18+ | 35x sales requirements
-      Terms & Conditions Here | Already a member? <a class="openLogin sigin-desktop">Sign in</a>
+      Terms & Conditions Here | Already a member? <a class="openLogin sigin-desktop pointer">Sign in</a>
     </p>
 </div>
 `);

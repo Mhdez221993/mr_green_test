@@ -1,6 +1,6 @@
 document.write(`
   <div class="register style-registration">
-    <div class="close closeRegister closeRegister">&#x2715;</div>
+    <div class="close closeRegister closeRegister pointer">&#x2715;</div>
     <h2 class="registerWelcome">
       Bienvevido a <br />
       Mr Green

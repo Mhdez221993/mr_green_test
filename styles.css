@@ -367,6 +367,10 @@ body {
     border-radius: 36px;
   }
 
+  .pointer {
+    cursor: pointer;
+  }
+
   .join-now {
     flex-grow: 1;
   }

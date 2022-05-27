@@ -1,7 +1,7 @@
 document.write(`
   <div class="loginModal style-login">
     <div class="closeLoginBar">
-      <span class="closeLogin">&#x2715;</span>
+      <span class="closeLogin pointer">&#x2715;</span>
     </div>
 
     <h2 class="loginTitle">Iniciar Session</h2>
