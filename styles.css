@@ -197,6 +197,8 @@ body {
   align-self: flex-end;
   padding-right: 20px;
   margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 100;
 }
 
 .registerWelcome {
@@ -207,10 +209,6 @@ body {
 
 .registerSteps {
   padding: 30px;
-}
-
-.resgister-step-1 {
-  background-color: orange;
 }
 
 #login {
@@ -301,6 +299,14 @@ body {
 
 .sigin-desktop {
   border-bottom: 1px solid #ddd;
+}
+
+.style-registration {
+  background-color: #005536;
+}
+
+.registration-first {
+  background-color: #e58451;
 }
 
 @media screen and (min-width: 452px) {
