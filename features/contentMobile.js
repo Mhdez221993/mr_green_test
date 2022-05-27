@@ -6,16 +6,16 @@ document.write(`
       alt="mr green logo"
     />
     <h1 class="header">
-    Vi dubblar din första insättning upp till 1000 SEK
+      Vi dubblar din första insättning upp till 1000 SEK
     </h1>
 
     <h2 class="subheader">Spela Casino Online hos Mr Green</h2>
 
     <p class="header_paragraph">
-    +18 | Endast giltigt för nya spelare med första insättning på min.
-    100kr, max. 1000kr | Bonuspengar måste omsättas 35 gånger för att
-    kunna tas ut | Bonus-Regler och Villkor gäller | stodlinjen.se |
-    spelpaus.se | Spela Ansvarsfullt | Giltigt i 60 dagar.
+      +18 | Endast giltigt för nya spelare med första insättning på min.
+      100kr, max. 1000kr | Bonuspengar måste omsättas 35 gånger för att
+      kunna tas ut | Bonus-Regler och Villkor gäller | stodlinjen.se |
+      spelpaus.se | Spela Ansvarsfullt | Giltigt i 60 dagar.
     </p>
 
     <h3 class="login">Redan medlem? Logga in</h3>

@@ -47,7 +47,6 @@ span {
 
 .logo {
   width: 70px;
-  /* align-self: center; */
   margin-bottom: 20px;
 }
 
@@ -160,8 +159,8 @@ span {
   z-index: 1;
 }
 
-iframe[seamless] {
-  border: none;
+#contentDesktop {
+  display: none;
 }
 
 @media screen and (min-width: 452px) {
@@ -184,7 +183,7 @@ iframe[seamless] {
 
   .left-content {
     width: 60%;
-    padding-top: 80px;
+    padding-top: 50px;
   }
 
   .right-content {
@@ -205,7 +204,13 @@ iframe[seamless] {
 
   .logo {
     width: 130px;
-    margin-right: 150px;
+    margin-left: 190px;
+  }
+
+  .btn-register {
+    width: 300px;
+    padding: 15px 30px;
+    border-radius: 25px;
   }
 
   .step-1 {
@@ -234,6 +239,18 @@ iframe[seamless] {
     right: -190px;
   }
 
+  .header {
+    margin-bottom: 15px;
+  }
+
+  .subheader {
+    margin-bottom: 15px;
+  }
+
+  .btn-register {
+    margin-bottom: 25px;
+  }
+
   #footerDesktop {
     display: flex;
   }
@@ -244,5 +261,9 @@ iframe[seamless] {
 
   #contentMobile {
     display: none;
+  }
+
+  #contentDesktop {
+    display: flex;
   }
 }
