@@ -30,11 +30,11 @@ span {
   padding: 0;
   margin: 0;
 }
-/* body {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-} */
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #ddd;
+}
 
 .app {
   height: 100vh;
@@ -90,7 +90,7 @@ span {
 }
 
 .header_paragraph {
-  padding-bottom: 10px;
+  padding-bottom: 15px;
 }
 
 .login {
@@ -98,9 +98,9 @@ span {
 }
 
 .btn-register {
-  width: 200px;
-  padding: 10px 20px;
-  border-radius: 20px;
+  width: 220px;
+  padding: 15px 20px;
+  border-radius: 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -255,6 +255,35 @@ span {
   height: 40px;
 }
 
+/* font-family */
+
+.content-title {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.content-subtitle {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.content-paragraph {
+  font-size: 12px;
+  font-weight: 200;
+}
+
+.content-login {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.content-register {
+  font-size: 17px;
+  font-weight: 800;
+  background-color: #e88552;
+  color: #313333;
+}
+
 @media screen and (min-width: 452px) {
   .logo {
     margin-left: 120px;
@@ -303,6 +332,10 @@ span {
     width: 300px;
     padding: 15px 30px;
     border-radius: 25px;
+  }
+
+  .join-now {
+    flex-grow: 1;
   }
 
   .step-1 {
@@ -362,5 +395,14 @@ span {
 
   #contentDesktop {
     display: flex;
+  }
+
+  .content-subtitle {
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  .content-las-paragraph {
+    font-weight: 400;
   }
 }
