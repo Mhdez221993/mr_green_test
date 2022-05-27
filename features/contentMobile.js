@@ -18,7 +18,7 @@ document.write(`
       spelpaus.se | Spela Ansvarsfullt | Giltigt i 60 dagar.
     </p>
 
-    <h3 class="login">Redan medlem? Logga in</h3>
+    <h3 class="login">Redan medlem? <span class="openLogin">Logga in</span></h3>
     <button class="btn-register openRegister">
       <span>Registrera häri?</span>
       <img

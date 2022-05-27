@@ -1,5 +1,5 @@
 document.write(`
-  <div class="footer closeRegister" id="footerDesktop">
+  <div class="footer openRegister" id="footerDesktop">
   <div class="steps step-1 registerButton regitering">
     <img class="img-steps" src="./assets/step1.svg" alt="mr green logo" />
     <div class="content-steps">

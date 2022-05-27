@@ -26,7 +26,7 @@ document.write(`
 
     <p class="header_paragraph">
       Only new players | 18+ | 35x sales requirements
-      Terms & Conditions Here | Already a member? Sign in
+      Terms & Conditions Here | Already a member? <span class="openLogin">Sign in</span>
     </p>
 </div>
 `);

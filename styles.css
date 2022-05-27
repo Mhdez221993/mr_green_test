@@ -13,6 +13,11 @@ img {
   width: 100%;
 }
 
+input {
+  height: 40px;
+  margin-bottom: 40px;
+}
+
 h1,
 h2,
 h3,
@@ -205,6 +210,49 @@ span {
 
 .resgister-step-1 {
   background-color: orange;
+}
+
+#login {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(200, 192, 192, 0.4);
+  z-index: 4;
+}
+
+.loginModal {
+  display: flex;
+  max-width: 800px;
+  flex-direction: column;
+  width: 100%;
+  background-color: whitesmoke;
+  margin: 100px auto 0 auto;
+  border-radius: 10px;
+  padding: 0 30px 70px 30px;
+}
+
+.closeLoginBar {
+  background-color: green;
+  padding: 20px;
+  margin-bottom: 40px;
+  margin: 0 -30px 40px -30px;
+}
+
+.loginTitle {
+  align-self: center;
+  margin-bottom: 30px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.submit {
+  height: 40px;
 }
 
 @media screen and (min-width: 452px) {
