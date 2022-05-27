@@ -1,7 +1,7 @@
 document.write(`
-  <div class="registerWrapper" id="regiterMobile">
+  <div class="registerWrapper">
     <div class="register mobile">
-      <div class="close">x</div>
+      <div class="close" id="close">x</div>
       <h2 class="registerWelcome">
         Bienvevido a <br />
         Mr Green

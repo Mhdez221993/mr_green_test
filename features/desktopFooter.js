@@ -1,6 +1,6 @@
 document.write(`
   <div class="footer" id="footerDesktop">
-  <div class="steps step-1">
+  <div class="steps step-1 registerButton">
     <img class="img-steps" src="./assets/step1.svg" alt="mr green logo" />
     <div class="content-steps">
       <h3 class="step-title">Click 'Join Now'</h3>

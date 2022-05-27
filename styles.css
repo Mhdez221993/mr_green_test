@@ -206,7 +206,7 @@ span {
   background-color: orange;
 }
 
-.regiter.mobile {
+#register {
   display: none;
 }
 
@@ -298,12 +298,7 @@ span {
     margin-bottom: 25px;
   }
 
-  .register.mobile {
-    display: none;
-  }
-
-  .register.desktop {
-    display: flex;
+  .register {
     width: 900px;
     margin: 100px auto 0 auto;
   }
