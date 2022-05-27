@@ -4,7 +4,7 @@ The scope of this test is front-end focused, so there will be no need to impleme
 
 ![screetshot](./assets/design/desktop_image.png)
 
-## [Go Live]()
+## [Go Live](https://eloquent-sunshine-8482d7.netlify.app/)
 
 ## Built With
 
