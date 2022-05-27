@@ -14,8 +14,10 @@ img {
 }
 
 input {
-  height: 40px;
   margin-bottom: 40px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  padding: 20px;
 }
 
 h1,
@@ -186,7 +188,6 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
-  background-color: green;
   height: 70vh;
   margin-top: 100px;
   border-radius: 10px;
@@ -234,7 +235,7 @@ body {
 }
 
 .closeLoginBar {
-  background-color: green;
+  background-color: #015436;
   padding: 20px;
   margin-bottom: 40px;
   margin: 0 -30px 40px -30px;
@@ -243,6 +244,7 @@ body {
 .loginTitle {
   align-self: center;
   margin-bottom: 30px;
+  color: #202020;
 }
 
 .form {
@@ -251,7 +253,13 @@ body {
 }
 
 .submit {
-  height: 40px;
+  padding: 20px;
+  background-color: #e88552;
+  color: #202020;
+  border-radius: 30px;
+  border: 1px solid #a95f39;
+  font-size: 15px;
+  font-weight: 600;
 }
 
 /* font-family */
