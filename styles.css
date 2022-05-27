@@ -295,6 +295,14 @@ body {
   font-weight: 300;
 }
 
+.soft-green {
+  color: #3cb169;
+}
+
+.sigin-desktop {
+  border-bottom: 1px solid #ddd;
+}
+
 @media screen and (min-width: 452px) {
   .logo {
     margin-left: 120px;
@@ -329,7 +337,7 @@ body {
   }
 
   .paragraph {
-    width: 600px;
+    width: 700px;
     padding-left: 120px;
     margin: 0 auto;
   }
@@ -419,6 +427,16 @@ body {
 
   .content-register {
     font-size: 28px;
+  }
+
+  .content-title {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .content-subtitle {
+    font-size: 30px;
+    font-weight: 400;
   }
 
   .steps {

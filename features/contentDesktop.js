@@ -6,7 +6,7 @@ document.write(`
       alt="mr green logo"
     />
     <h1 class="header content-title">
-      Up to € 100 in 5 Free Bets with the
+      Up to € 100 in <span class="soft-green">5 Free Bets</span> with the
       20% Bonus on your first deposit
     </h1>
 
@@ -26,7 +26,7 @@ document.write(`
 
     <p class="header_paragraph content-las-paragraph">
       Only new players | 18+ | 35x sales requirements
-      Terms & Conditions Here | Already a member? <span class="openLogin">Sign in</span>
+      Terms & Conditions Here | Already a member? <a class="openLogin sigin-desktop">Sign in</a>
     </p>
 </div>
 `);
