@@ -19,7 +19,7 @@ document.write(`
     </p>
 
     <h3 class="login">Redan medlem? Logga in</h3>
-    <button class="btn-register" id="registerButtonMobile">
+    <button class="btn-register openRegister">
       <span>Registrera häri?</span>
       <img
         class="button-icon"

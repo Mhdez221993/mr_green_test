@@ -1,6 +1,6 @@
 document.write(`
   <div class="footer" id="footerMobile">
-  <div class="steps step-1 registerButton">
+  <div class="steps step-1 openRegister">
     <img class="img-steps" src="./assets/step1.svg" alt="mr green logo" />
     <div class="content-steps">
       <h3 class="step-title">REGISTRERA</h3>

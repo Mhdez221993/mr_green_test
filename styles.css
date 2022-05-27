@@ -165,7 +165,8 @@ span {
 
 /* Modals */
 
-.registerWrapper {
+#register {
+  display: none;
   position: absolute;
   top: 0;
   right: 0;
@@ -204,10 +205,6 @@ span {
 
 .resgister-step-1 {
   background-color: orange;
-}
-
-#register {
-  display: none;
 }
 
 @media screen and (min-width: 452px) {

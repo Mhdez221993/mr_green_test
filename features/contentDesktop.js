@@ -15,7 +15,7 @@ document.write(`
       your first game.
     </h2>
 
-    <button class="btn-register" id="registerButton">
+    <button class="btn-register openRegister">
       <span>Join Now</span>
       <img
         class="button-icon"
