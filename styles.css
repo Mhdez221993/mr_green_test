@@ -342,7 +342,7 @@ body {
   .btn-register {
     width: 300px;
     padding: 15px 30px;
-    border-radius: 25px;
+    border-radius: 36px;
   }
 
   .join-now {
@@ -415,6 +415,10 @@ body {
 
   .content-las-paragraph {
     font-weight: 400;
+  }
+
+  .content-register {
+    font-size: 28px;
   }
 
   .steps {
