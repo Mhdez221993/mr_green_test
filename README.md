@@ -1,10 +1,17 @@
-# Front End Development Specialist / Task
+# Mr Green
 
-The scope of this test is front-end focused, so there will be no need to implement any form of backend CMS or database systems.
+The Mr Green project is a practical exploration of building a static webpage with modern web development tools. It serves as a sandbox for experimenting with HTML and CSS fundamentals, including layout techniques, responsive design, and styling best practices.
+
+## Key Learning Goals:
+
+* Understand and implement semantic HTML structure for better accessibility and maintainability.
+* Apply CSS to create responsive layouts using Flexbox and Grid.
+* Experiment with visual styles, typography, and spacing to enhance user experience.
+* Gain confidence in building static pages as a foundation for dynamic web applications.
 
 ![screetshot](./assets/design/desktop_image.png)
 
-## [Go Live](https://eloquent-sunshine-8482d7.netlify.app/)
+## [Go Live](https://mhdez221993.github.io/mr_green_test/)
 
 ## Built With
 
@@ -16,23 +23,15 @@ The scope of this test is front-end focused, so there will be no need to impleme
 
 To get a local copy up and running follow these simple example steps.
 
-Run in your terminal `git clone git@github.com:Mhdez221993/mr_green_test.git`
+* Run in your terminal `git clone git@github.com:Mhdez221993/mr_green_test.git`
+* `cd mr_green_test`
 
-## helful links
-
-- [copy text](https://brandfolder.com/workbench/extract-text-from-image)
-- [Import HTML Files Into HTML Files](https://www.jotform.com/blog/html5-imports-import-html-files-into-html-files-83467/#:~:text=Embedding%20an%20HTML%20file%20is,comes%20to%20stylesheets%20and%20scripts.)
-- [Include another HTML file in a HTML file](https://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file)
-- [Event listener to all elements](https://bobbyhadz.com/blog/javascript-add-event-listener-to-all-elements-with-class)
-- [Cloe incon](https://stackoverflow.com/questions/5353461/unicode-character-for-x-cancel-closes)
-
-## Authors
+## Author
 
 👤 **Moises Hernandez**
 
-- GitHub: [@Mhdez221993](https://github.com/Mhdez221993)
-- Twitter: [@MoisesH42060050](https://twitter.com/MoisesH42060050)
-- LinkedIn: [Moises Hernandez Coronado](https://www.linkedin.com/in/moises-hernandez-9bbb17145/)
+- [GitHub](https://github.com/Mhdez221993)
+- [LinkedIn](https://www.linkedin.com/in/moises-hdez-coronado/)
 
 ## Contributing
 
@@ -43,7 +42,3 @@ Feel free to check the [issues page](https://github.com/Mhdez221993/mr_green_tes
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- To [William Hill](https://www.williamhillgroup.com/) for providinh design.
