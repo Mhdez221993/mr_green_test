@@ -17,11 +17,35 @@
   <body>
     <div class="app">
       <div id="register">
-        <script src="./features/resgisterMobile.js"></script>
+        <div class="register style-registration">
+          <div class="close closeRegister closeRegister pointer">&#x2715;</div>
+          <h2 class="registerWelcome">
+            Bienvevido a <br />
+            Mr Green
+          </h2>
+          <h3 class="registerSteps resgister-step-1 registration-first">
+            Empieza por tu correo <br />
+            <span>Registrarte te lleva menos de un minuto</span>
+          </h3>
+          <h3 class="registerSteps">Configura tus datos de ingreso</h3>
+          <h3 class="registerSteps">Confirma tus datos</h3>
+          <h3 class="registerSteps">Comienza tu aventura en Mr Green</h3>
+        </div>
       </div>
 
       <div id="login">
-        <script src="./features/login.js"></script>
+        <div class="loginModal style-login">
+          <div class="closeLoginBar">
+            <span class="closeLogin pointer">&#x2715;</span>
+          </div>
+
+          <h2 class="loginTitle">Iniciar Session</h2>
+          <form class="form">
+            <input type="text" placeholder="Email" required />
+            <input type="password" placeholder="Contraseña" required />
+            <button class="submit" type="submit">Iniciar Session</button>
+          </form>
+        </div>
       </div>
 
       <div class="content-wrapper">
@@ -34,8 +58,71 @@
             src="./assets/mrg-portrait.png"
             alt="mr green portrait"
           />
-          <script src="./features/contentMobile.js"></script>
-          <script src="./features/contentDesktop.js"></script>
+          <div class="paragraph" id="contentMobile">
+            <img
+              class="logo"
+              src="./assets/mrgreen-logo-white.svg"
+              alt="mr green logo"
+            />
+            <h1 class="header content-title">
+              Vi dubblar din första insättning upp till 1000 SEK
+            </h1>
+
+            <h2 class="subheader content-subtitle">
+              Spela Casino Online hos Mr Green
+            </h2>
+
+            <p class="header_paragraph content-paragraph">
+              +18 | Endast giltigt för nya spelare med första insättning på min.
+              100kr, max. 1000kr | Bonuspengar måste omsättas 35 gånger för att
+              kunna tas ut | Bonus-Regler och Villkor gäller | stodlinjen.se |
+              spelpaus.se | Spela Ansvarsfullt | Giltigt i 60 dagar.
+            </p>
+
+            <h3 class="login content-login">
+              Redan medlem?
+              <span class="openLogin soft-green pointer">Logga in</span>
+            </h3>
+            <button class="btn-register openRegister content-register pointer">
+              <span>Registrera häri?</span>
+              <img
+                class="button-icon"
+                src="./assets/bankid-logo.png"
+                alt="bankid logo"
+              />
+            </button>
+          </div>
+
+          <div class="paragraph" id="contentDesktop">
+            <img
+              class="logo"
+              src="./assets/mrgreen-logo-white.svg"
+              alt="mr green logo"
+            />
+            <h1 class="header content-title">
+              Up to € 100 in <span class="soft-green">5 Free Bets</span> with
+              the 20% Bonus on your first deposit
+            </h1>
+
+            <h2 class="subheader content-subtitle">
+              100% Profit Boost up to £5000 on your first game.
+            </h2>
+
+            <button class="btn-register openRegister content-register pointer">
+              <span class="join-now">Join Now</span>
+              <img
+                class="button-icon"
+                src="./assets/bankid-logo.png"
+                alt="bankid logo"
+              />
+            </button>
+
+            <p class="header_paragraph content-las-paragraph">
+              Only new players | 18+ | 35x sales requirements Terms & Conditions
+              Here | Already a member?
+              <a class="openLogin sigin-desktop pointer">Sign in</a>
+            </p>
+          </div>
         </div>
 
         <div
@@ -44,8 +131,60 @@
         ></div>
       </div>
 
-      <script src="./features/mobileFooter.js"></script>
-      <script src="./features/desktopFooter.js"></script>
+      <div class="footer" id="footerMobile">
+        <div class="steps step-1 openRegister">
+          <img class="img-steps" src="./assets/step1.svg" alt="mr green logo" />
+          <div class="content-steps">
+            <h3 class="step-title title-step">REGISTRERA</h3>
+            <p class="subtitle-step">Registrera dig enkelt</p>
+          </div>
+        </div>
+
+        <div class="steps step-2">
+          <img class="img-steps" src="./assets/step2.svg" alt="mr green logo" />
+          <div class="content-steps">
+            <h3 class="step-title title-step">VÄLKOMSTBONUS CASINO</h3>
+            <p class="subtitle-step">
+              Välj Casinobonus med din första insättning
+            </p>
+          </div>
+        </div>
+
+        <div class="steps step-3">
+          <img class="img-steps" src="./assets/step3.svg" alt="mr green logo" />
+          <div class="content-steps">
+            <h3 class="step-title title-step">100% BONUS UPP TILL 1000 SEK</h3>
+            <p class="subtitle-step">
+              Dubbla dina pengar och spela dina favoritspel
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="footer openRegister" id="footerDesktop">
+        <div class="steps step-1 registerButton regitering">
+          <img class="img-steps" src="./assets/step1.svg" alt="mr green logo" />
+          <div class="content-steps">
+            <h3 class="step-title title-step">Click 'Join Now'</h3>
+            <p class="subtitle-step">Choose online casino bonus</p>
+          </div>
+        </div>
+
+        <div class="steps step-2">
+          <img class="img-steps" src="./assets/step2.svg" alt="mr green logo" />
+          <div class="content-steps">
+            <h3 class="step-title title-step">Get 100% Deposit Bonus</h3>
+            <p class="subtitle-step">Plus 200 free spins</p>
+          </div>
+        </div>
+
+        <div class="steps step-3">
+          <img class="img-steps" src="./assets/step3.svg" alt="mr green logo" />
+          <div class="content-steps">
+            <h3 class="step-title title-step">Play</h3>
+            <p class="subtitle-step">In Mr Green's Casino</p>
+          </div>
+        </div>
+      </div>
     </div>
 
     <script src="./index.js"></script>
